@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,6 +24,12 @@ export default function Home() {
             <br />
             よろしくお願いします。
           </p>
+          <div className="flex gap-x-3">
+            <Link href="/hobby">
+              <div className="flex justify-center items-center text-center p-5 rounded-full bg-yellow-300">趣味</div>
+            </Link>
+            <div>eee1</div>
+          </div>
         </div>
       </div>
     </div>
