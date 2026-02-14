@@ -28,7 +28,9 @@ export default function Home() {
             <Link href="/hobby">
               <div className="flex justify-center items-center text-center p-5 rounded-full bg-yellow-300">趣味</div>
             </Link>
-            <div>eee1</div>
+            <Link href="/work">
+              <div className="flex justify-center items-center text-center p-5 rounded-full bg-yellow-300">お仕事</div>
+            </Link>
           </div>
         </div>
       </div>
